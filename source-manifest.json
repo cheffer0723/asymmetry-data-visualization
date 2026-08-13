@@ -1,1 +1,8 @@
-{"sourceRepository":"cheffer0723/asymmetry","sourceRef":"main","sourceCommit":"c64b5e3a76fa20f025c932a4b9c61215f4395f01","capturedAt":"2026-08-13","sourceDocuments":["docs/ARCHITECTURE.md","docs/SOURCE_EVIDENCE_MAP.md"],"purpose":"Read-only visualization snapshot; this repository is independent of the master product repository."}
+{
+  "sourceRepository": "cheffer0723/asymmetry",
+  "sourceRef": "main",
+  "sourceCommit": "f6c19febbda9609b3f29bc0dd048bf3c057c18cd",
+  "capturedAt": "2026-08-13",
+  "sourceDocuments": ["docs/ARCHITECTURE.md", "docs/SOURCE_EVIDENCE_MAP.md"],
+  "purpose": "Read-only visualization snapshot; this repository is independent of the master product repository."
+}
