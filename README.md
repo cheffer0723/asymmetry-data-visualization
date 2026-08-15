@@ -18,3 +18,5 @@ Refreshing the visual is a deliberate snapshot update in this repository; it is 
 ## Visual reading model
 
 District substrates establish the codebase's major domains. Repository files resolve into towers, symbols resolve into circuit modules, and the thin illuminated traces prioritize the graph's evidence-labelled relationships. Moving pulses are schematic relationship indicators, not claims about production traffic or users.
+
+The city controls collapse into a compact tab on phones. Selecting a primary system tower opens that domain's expanded repository view; Reset View restores the city. Pixel-cloud blocks, district glow, and additional board illumination are intentionally schematic orientation cues, not source-derived runtime data.
