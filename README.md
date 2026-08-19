@@ -1,6 +1,6 @@
 # Asymmetry Architecture City
 
-This repository hosts a static, repository-derived city view of the Asymmetry codebase. The live viewer starts with a lightweight CITY summary, then loads the full safety-filtered graph only when a visitor asks for deeper detail.
+This repository hosts a static, repository-derived city view of the Asymmetry codebase: a public-safe visual map of the project's systems, surfaces, and verified repository structure. The live viewer starts with a lightweight CITY summary, then loads the full safety-filtered graph only when a visitor asks for deeper detail.
 
 ## Boundaries
 
