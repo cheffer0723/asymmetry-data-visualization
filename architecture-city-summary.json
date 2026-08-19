@@ -119,5 +119,120 @@
     }
   ],
   "protectedNodesOmitted": 241,
-  "summaryOf": "architecture-map.json"
+  "summaryOf": "architecture-map.json",
+  "groupMetrics": {
+    "ci": {
+      "systems": 1,
+      "files": 6,
+      "directories": 2,
+      "symbols": 0,
+      "headings": 0,
+      "nodes": 9,
+      "lines": 509,
+      "bytes": 20254,
+      "weight": 944.0444444444445,
+      "maxFileWeight": 249.25555555555556
+    },
+    "root": {
+      "systems": 0,
+      "files": 19,
+      "directories": 5,
+      "symbols": 0,
+      "headings": 48,
+      "nodes": 72,
+      "lines": 2607,
+      "bytes": 104119,
+      "weight": 5090.877777777778,
+      "maxFileWeight": 1965.3777777777777
+    },
+    "product": {
+      "systems": 1,
+      "files": 42,
+      "directories": 6,
+      "symbols": 192,
+      "headings": 0,
+      "nodes": 241,
+      "lines": 8343,
+      "bytes": 342198,
+      "weight": 22423.199999999997,
+      "maxFileWeight": 2692.7555555555555
+    },
+    "evidence": {
+      "systems": 1,
+      "files": 34,
+      "directories": 8,
+      "symbols": 0,
+      "headings": 232,
+      "nodes": 275,
+      "lines": 3601,
+      "bytes": 197687,
+      "weight": 12139.522222222224,
+      "maxFileWeight": 795.2333333333333
+    },
+    "dead-drop": {
+      "systems": 1,
+      "files": 240,
+      "directories": 61,
+      "symbols": 775,
+      "headings": 672,
+      "nodes": 1749,
+      "lines": 22284,
+      "bytes": 1013449,
+      "weight": 82778.54444444439,
+      "maxFileWeight": 3082.133333333333
+    },
+    "integration": {
+      "systems": 1,
+      "files": 4,
+      "directories": 2,
+      "symbols": 12,
+      "headings": 0,
+      "nodes": 19,
+      "lines": 127,
+      "bytes": 3256,
+      "weight": 995.1777777777777,
+      "maxFileWeight": 262.77777777777777
+    },
+    "surb-reply": {
+      "systems": 0,
+      "files": 2,
+      "directories": 3,
+      "symbols": 28,
+      "headings": 0,
+      "nodes": 33,
+      "lines": 332,
+      "bytes": 13993,
+      "weight": 1641.4777777777779,
+      "maxFileWeight": 1060.9
+    },
+    "zero-dark": {
+      "systems": 1,
+      "files": 214,
+      "directories": 48,
+      "symbols": 480,
+      "headings": 440,
+      "nodes": 1183,
+      "lines": 24692,
+      "bytes": 992339,
+      "weight": 73087.98888888895,
+      "maxFileWeight": 6479.222222222223
+    },
+    "tooling": {
+      "systems": 0,
+      "files": 5,
+      "directories": 1,
+      "symbols": 45,
+      "headings": 0,
+      "nodes": 51,
+      "lines": 759,
+      "bytes": 41991,
+      "weight": 3582.566666666666,
+      "maxFileWeight": 1068.1888888888889
+    }
+  },
+  "sizeModel": {
+    "districtWeightMax": 82778.54444444439,
+    "fileWeightMax": 6479.222222222223,
+    "sizing": "District footprint reflects per-domain repository weight; building footprint/height reflect file lines, bytes, and safe symbol/headings where available."
+  }
 }
