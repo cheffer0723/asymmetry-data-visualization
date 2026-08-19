@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "2.0.0",
+  "repository": "cheffer0723/asymmetry",
+  "commit": "66aa5e2d69bf9cb5d9ca4e9afdcc2e362dca681f",
+  "generatedAt": "2026-08-14T07:40:18.449Z",
+  "fidelity": "city-summary",
+  "stats": {
+    "files": 0,
+    "directories": 0,
+    "symbols": 0,
+    "headings": 0,
+    "nodes": 6,
+    "edges": 8,
+    "fullFiles": 566,
+    "fullDirectories": 136,
+    "fullSymbols": 1532,
+    "fullHeadings": 1392,
+    "fullNodes": 3632,
+    "fullEdges": 19495
+  },
+  "nodes": [
+    {
+      "id": "system:product",
+      "type": "system",
+      "label": "Shared Product Surface",
+      "group": "product",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "system:dead-drop",
+      "type": "system",
+      "label": "Dead Drop Capability Core",
+      "group": "dead-drop",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "system:zero-dark",
+      "type": "system",
+      "label": "Zero-Dark Capability Core",
+      "group": "zero-dark",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "system:integration",
+      "type": "system",
+      "label": "Integration Contracts",
+      "group": "integration",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "system:evidence",
+      "type": "system",
+      "label": "Evidence / Audit Rail",
+      "group": "evidence",
+      "symbols": [],
+      "headings": []
+    },
+    {
+      "id": "system:ci",
+      "type": "system",
+      "label": "Commit / CI / Generated Map",
+      "group": "ci",
+      "symbols": [],
+      "headings": []
+    }
+  ],
+  "edges": [
+    {
+      "from": "system:product",
+      "to": "system:dead-drop",
+      "type": "capability-boundary",
+      "confidence": "architecture-baseline"
+    },
+    {
+      "from": "system:product",
+      "to": "system:zero-dark",
+      "type": "capability-boundary",
+      "confidence": "architecture-baseline"
+    },
+    {
+      "from": "system:product",
+      "to": "system:integration",
+      "type": "contract-boundary",
+      "confidence": "architecture-baseline"
+    },
+    {
+      "from": "system:dead-drop",
+      "to": "system:integration",
+      "type": "narrow-client-boundary",
+      "confidence": "architecture-baseline"
+    },
+    {
+      "from": "system:zero-dark",
+      "to": "system:integration",
+      "type": "narrow-client-boundary",
+      "confidence": "architecture-baseline"
+    },
+    {
+      "from": "system:evidence",
+      "to": "system:dead-drop",
+      "type": "evidence-boundary",
+      "confidence": "architecture-baseline"
+    },
+    {
+      "from": "system:evidence",
+      "to": "system:zero-dark",
+      "type": "evidence-boundary",
+      "confidence": "architecture-baseline"
+    },
+    {
+      "from": "system:ci",
+      "to": "system:evidence",
+      "type": "regenerates",
+      "confidence": "architecture-baseline"
+    }
+  ],
+  "protectedNodesOmitted": 241,
+  "summaryOf": "architecture-map.json"
+}
