@@ -1,6 +1,6 @@
 # Asymmetry Architecture City
 
-This repository hosts a static, repository-derived city view of the Asymmetry codebase.
+This repository hosts a static, repository-derived city view of the Asymmetry codebase. The live viewer starts with a lightweight CITY summary, then loads the full safety-filtered graph only when a visitor asks for deeper detail.
 
 ## Boundaries
 
@@ -12,7 +12,7 @@ This repository hosts a static, repository-derived city view of the Asymmetry co
 
 ## Snapshot
 
-`architecture-map.json` was generated from `cheffer0723/asymmetry` commit `66aa5e2d69bf9cb5d9ca4e9afdcc2e362dca681f` on 2026-08-14. The city viewer loads the safety-filtered graph directly and preserves source-derived paths, domain grouping, evidence labels, and relationship confidence for the entries that remain in scope.
+`architecture-city-summary.json` is the lightweight first-load graph used for CITY mode. `architecture-map.json` was generated from `cheffer0723/asymmetry` commit `66aa5e2d69bf9cb5d9ca4e9afdcc2e362dca681f` on 2026-08-14. The viewer loads the full safety-filtered graph only when visitors choose deeper detail, preserving source-derived paths, domain grouping, evidence labels, and relationship confidence for entries that remain in scope.
 
 Refreshing the visual is a deliberate snapshot update in this repository; it is not coupled to the near-release product repository.
 
@@ -21,3 +21,16 @@ Refreshing the visual is a deliberate snapshot update in this repository; it is 
 District substrates establish the codebase's major domains. Repository files resolve into towers, symbols resolve into circuit modules, and the thin illuminated traces prioritize the graph's evidence-labelled relationships. Moving pulses are schematic relationship indicators, not claims about production traffic or users.
 
 The city controls collapse into a compact tab on phones. Selecting a primary system tower opens that domain's expanded repository view; Reset View restores the city. Pixel-cloud blocks, district glow, and additional board illumination are intentionally schematic orientation cues, not source-derived runtime data.
+
+
+## Current viewer
+
+- `index.html` is the live GitHub Pages viewer.
+- `architecture-city-summary.json` is the fast first-load CITY graph.
+- `architecture-map.json` is the full safety-filtered graph.
+- `source-manifest.json` records the source repository, commit, capture date, and source documents.
+- `legacy/` preserves the earlier 2D explorer prototype so it does not compete with the live viewer.
+
+## Public posture
+
+The viewer should describe orientation, evidence boundaries, and snapshot status. It should not present source contents, private internals, production traffic, user activity, or live system guarantees.
